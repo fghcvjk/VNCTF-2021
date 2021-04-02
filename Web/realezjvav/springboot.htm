@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>springboot</title>
+    <link rel="stylesheet" href="springboot_files/login.css">
+    <script src="springboot_files/jquery.js"></script>
+</head>
+<!--Ha1c9on在线征婚 , 祖传前端年薪百万 -->
+
+<body class="body_bg">
+<div class="content">
+    <div class="title">Only the admin can get the right page</div>
+    <!-- both  username and password are right , then you can enter the next level-->
+    <!--  数据量很少 -->
+    <form action="/user/login" class="form_all" method="POST">
+
+        <div class="title_word">用户名</div>
+        <div class="input_box">
+            <input name="username" id="username" type="text" class="input_1">
+        </div>
+        <div class="blank_1"></div>
+        <div class="title_word">密码</div>
+        <div class="input_box">
+            <input name="password" type="password" id="password" class="input_1">
+        </div>
+        <div class="login"><input type="submit" value="Login"></div>
+        <br>
+    </form>
+    <div></div>
+
+</div>
+
+<script>
+    $(function() {
+        $(window).on('load resize',function(){
+            var w_height = $(window).height();
+            var w_width = $(".content").height();
+            //alert(w_height/2-w_width/2);
+            $('.content').css({'top':w_height/2-w_width/2+'px'},100);
+        });
+    })
+</script>
+</body></html>

@@ -1,0 +1,12 @@
+[VNCTF 2021]catcatcat
+100
+
+别人：今年轻松薅羊毛赚了好多好多。
+
+众人：哦，原来这就是成功人士
+
+地址：0xAEa0714A8793E2684DE7F508577d7EC3F40F283a
+
+FLAG：flag{*}
+
+http://dff18424-13c4-4ba8-adb5-f1729e0806f5.catcatcat.vnctf2021.node4.buuoj.cn:82/
